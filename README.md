@@ -33,9 +33,26 @@ Ordenação
 
 Ordenação Dinâmica: Tanto o estoque quanto o histórico de vendas e os resultados de buscas podem ser ordenados dinamicamente por nome da polpa ou quantidade, conforme a escolha do usuário.
 
+Estruturas Utilizadas
+estoque (Dicionário): Armazena as polpas como chaves (strings) e suas respectivas quantidades em estoque como valores (inteiros). Embora seja um dicionário, ele é fundamental para gerenciar os itens de forma individual.
+historico_vendas (Lista): Contém uma coleção linear de dicionários, onde cada dicionário representa uma venda e guarda informações como o nome da polpa e a quantidade vendida.
 
+Tecnologias Utilizadas
 
+Linguagem: Python (console)
+Paradigma: Programação Estruturada (com elementos de Modularização por Funções)
+Restrições: Foco no uso de estruturas de dados nativas (listas e dicionários), sem a necessidade de reimplementar lógicas complexas de baixo nível como redimensionamento manual
 
+Justificativa Pedagógica
+
+O uso de listas e dicionários nativos do Python neste projeto tem fins didáticos e reforça o entendimento de:
+
+Armazenamento e Organização de Dados: Como dados relacionados (polpas, quantidades, histórico de vendas) são eficientemente armazenados e acessados.
+
+Algoritmos de Ordenação e Busca: A aplicação prática de diferentes métodos para organizar (por nome, por quantidade) e localizar informações dentro das estruturas de dados.
+
+Sinergia de Algoritmos: Como a combinação de busca e ordenação aprimora a análise e visualização dos dados, tornando o sistema mais funcional e intuitivo para o usuário.
+\nRobustez de Entrada: A importância da validação de entrada de dados para garantir a integridade do sistema e proporcionar uma melhor experiência ao usuário.
 
 
 
