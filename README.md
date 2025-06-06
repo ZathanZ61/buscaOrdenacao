@@ -52,7 +52,7 @@ Armazenamento e Organização de Dados: Como dados relacionados (polpas, quantid
 Algoritmos de Ordenação e Busca: A aplicação prática de diferentes métodos para organizar (por nome, por quantidade) e localizar informações dentro das estruturas de dados.
 
 Sinergia de Algoritmos: Como a combinação de busca e ordenação aprimora a análise e visualização dos dados, tornando o sistema mais funcional e intuitivo para o usuário.
-\nRobustez de Entrada: A importância da validação de entrada de dados para garantir a integridade do sistema e proporcionar uma melhor experiência ao usuário.
+/nRobustez de Entrada: A importância da validação de entrada de dados para garantir a integridade do sistema e proporcionar uma melhor experiência ao usuário.
 
 
 
